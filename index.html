@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+
+        </nav>
+        <div class="header-text">
+
+          <p>WEB DEVELOPER</p>
+          <h1>Hi, I'm <span>Deepak Singh</span> <br>Chauhan from Moradabad</h1>
+        </div>
+
+
+      </div>
+</div>
+    <div id ="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/Deepak_1.jpg">
+
+
+            </div>
+              <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> I am a B.tech,3rd-year student of the Computer Science Department
+                    and I have keen interest in the field Machine learning and Web
+                     development. A Logical thinker and hard-working individual looking for
+                      a responsible position to gain practical experience</p>
+                <div class="tab-titles">
+                  <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                  <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                  <p class="tab-links" onclick="opentab('education')">Education</p>
+                  <p class="tab-links" onclick="opentab('Achivements')">ACHIVEMENTS</p>
+
+
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                  <ul>
+                    <li><span>LANGUAGES</span><br><li>JAVA</li><li>C PROGRAMMING</li><li>C++(BASIC)</li><li>PYTHON(BASIC)</li></li>
+                      <li><span>Web Development</span><br><li>HTML</li><li>CSS</li><li>Bootstrap</li><li>Javascript</li><li>React js</li></li>
+                        <li><span>COURSEWORK</span><br><li>DATA STRUCTURES & Algorithm</li><li>OBJECT ORIENTED PROGRAMMING</li><li>DBMS</li><li>OPERATING SYSTEM</li><li>COMPUTER NETWORKS</li>
+                  </ul>
+
+
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li><span>INTERN CRAQIT</span><br><p><strong>06/2021 - 09/2021</strong><br> Craqit is one of the most legit platform I have come across truly helping and
+                    promoting artists from various sectors by creating audio-visual contents</p></li><li>with a mission to democratise the performing and visual arts
+                           space, have dedicated ourselves towards creating a digital
+                            environment where all art forms are appreciated and given an
+                             opportunity to grow.</li><li> They are genuine and I credit them for bringing my long bourne
+                              ideas/dreams into reality which boosted my confidence in striving
+                              harder into doing what I do best</li>
+
+                </ul>
+
+              </div>
+
+                <div class="tab-contents" id="education">
+                  <ul>
+                    <li><span>2020-PRESENT</span><br>Bachelor of Technology in Computer Science & Information Technlogy From <strong>Moradabad Institute of Technology(AKTU)</strong><br><em>SGPA : 8.5</em></li>
+                      <li><span>2018-2020</span><br>Intermediate<strong> CBSE</strong> from Ryan International School(Shahjahanpur)<br><em> Percentage:90%</em></br></li>
+                        <li><span>2018-2020</span><br>High School from Ryan International School(Shahjahanpur)<br> <em> Percentage:90%</em></li>
+                  </ul>
+
+                </div>
+                <div class="tab-contents" id="Achivements">
+                  <ul>
+                     <li><strong>1.Highest Codechef Rating 1405(2 star).</strong></li>
+                     <blockquote> programming is quickly becoming an essential career skill. Learning to code is a fantastic opportunity equalizer — if you’re good at it, it can help you achieve your dreams</blockquote>
+                   <a href ="https://discuss.codechef.com/u/thakurdeep3440" class="btn">Profile</a>
+                   <li><strong>2.Solve approx 180+ questions on LeetCode</strong></li>
+
+                   <li>LeetCode is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.It is very helpfull for me .</li>
+                   <a href ="<a href ="https://discuss.codechef.com/u/thakurdeep3440" class="btn">Profile</a>
+
+                    </ul>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="services">
+          <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+              <div class="line">
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p>We love what we do and we do what our clients love & work<br> with great clients all over the world to create thoughtful and purposeful websites</p>
+                <a href="#">Learn more</a>
+              </div>
+              <div >
+                <i class="fas fa-crop-alt"></i>
+                <h2>Digital Marketing</h2>
+                <p>“We have technology, finally, that for the first time in human history allows people to really maintain rich connections with much larger numbers of peopl</p>
+                <a href="#">Learn more</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div id="portfolio">
+          <div class="container">
+            <h1 class="sub-title"> My PROJECTS</h1>
+            <div class="work-list">
+              <div class="work">
+                <img src="images/work2_1.jpeg">
+                <div class="layer">
+                  <h3>HEART PREDICTION SYSTEM</h3>
+                  <p> In this project i have applied the <em>LOGISTIC REGRESSION MODEL </em>this is a classification problem. It is designed to predict whether a person has heart diseases or not and what is the probability of cardiac areest that may occur to that person</p>
+
+                   <a href="https://github.com/Deepak3440/HeartDiseasepredict"></a>
+                   <p><strong>TECH USED:~ PYTHON|HTML|CSS|Bootstrap|Javascript ID USED:~ Pycharm|Jupyter Notebook</strong></p>
+
+
+                </div>
+
+              </div>
+              <div class="work">
+                <img src="images/work-21.jpeg">
+                <div class="layer">
+                  <h3>SIMON GAME</h3>
+                  <p>It is a memory based game. Player has to remember a definite pattern of colors and this pattern keeps on increasing in length.<br>
+                    Player will try to press the buttons of same pattern or else he/she will loose.</p>
+                  <a href="#"></a>
+                   <p><strong>TECH USED:~ Javascript(Jquery)HTML|CSS|Bootstrap ID USED:~ ATOM</strong></p>
+
+              </div>
+              </div>
+              <div class="work">
+                <img src="images/love1.jpeg">
+                <div class="layer">
+                  <h3>Love Calculator</h3>
+                  <p>The Love Calculator provides a score from 0% to 100% that is meant to be an indication of a match in terms of love, based on the names of two people.</p>
+                  <a href="#"></a>
+                  <p><strong>TECH USED:~ Javascript HTML|CSS|Bootstrap ID USED:~ ATOM</strong></p>
+              </div>
+              </div>
+
+            </div>
+            <a href ="#" class="btn">See More</a>
+
+            </div>
+          </div>
+
+          <div id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>thakurdeep3440@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7275147891,6307395107</p>
+
+                <div class="Social-icons">
+                  <a href="https://www.facebook.com/profile.php?id=100010157980931"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://twitter.com/DeepakS08105527"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="https://github.com/Deepak3440"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://www.linkedin.com/in/deepak-singh-chauhan-14a7801ba/"><i class="fa-brands fa-linkedin"></i></a>
+
+                </div>
+                <a href="images/my-cv.pdf"  download class="btn btn2">Download CV</a>
+                  </div>
+
+                <div class="contact-right">
+                  <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" value="" placeholder="Your Name" required>
+                    <input type="email" name="email" value="" placeholder="Your Email" required>
+                  <textarea name="Message" rows="8" placeholder="Your Message"></textarea>
+                   <button type="Submit" class="btn btn2" name="button"> Submit</button>
+
+                  </form>
+                  <span id="msg"></span>
+
+                </div>
+              </div>
+              <div class="copyright">
+                <p>Copyright © Made by Deepak <i class="fa-solid fa-heart"></i></p>
+
+              </div>
+
+
+          </div>
+
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links")
+          var tabcontents = document.getElementsByClassName("tab-contents")
+          function opentab(tabname)
+          {
+            for(tablink of tablinks)
+            {
+              tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents)
+            {
+              tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+          }
+
+</script>
+<script>
+
+
+
+  var sidemenu1 = document.getElementById("sidemenu");
+  function openmenu(){
+    sidemenu1.style.right = "0";
+    }
+    function closemenu(){
+      sidemenu1.style.right = "-200px";
+      }
+    </script>
+    <script>
+
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxuM2O-RHPZdtV95UjUCOmlmp_iOP2Pm50YW6EHOGafee6rLaxqI-W5tmBo4sgGC9SC/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+              msg.innerHTML="Message sent successfully"
+              setTimeout(function(){
+                msg.innerHTML = ""
+
+              },5000)
+            form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+</script>
+
+
+
+
+
+
+
+
+  </body>
+
+
+</html>
